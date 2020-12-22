@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/umudikk/fookievue.git"
+        "url": "git+https://github.com/umudikk/fookie-vue.git"
     },
     "keywords": [
         "vue",
