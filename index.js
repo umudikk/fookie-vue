@@ -11,13 +11,9 @@ export default {
 
         })
 
-        app.components({
-            "fookie-get": get
-        })
-
         app.mixin({
             created() {
-                // some logic ...
+                console.log("Hi I am Fookie")
             }
 
         })
