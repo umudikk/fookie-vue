@@ -2,20 +2,13 @@ import get from './components/get'
 
 export default {
     install: (app, options) => {
-        app.provide('fookie', options)
-
-        app.directive('my-directive', {
-            mounted(el, binding, vnode, oldVnode) {
-                // some logic ...
-            }
-
-        })
+        app.provide('$fookie', options)
 
         app.mixin({
             created() {
-                console.log("Hi I am Fookie")
+                console.info("Hi I am Fookie")
+                console.info(options)
             }
-
         })
     }
 }
