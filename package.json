@@ -22,5 +22,8 @@
     "bugs": {
         "url": "https://github.com/umudikk/fookie_vue/issues"
     },
-    "homepage": "https://github.com/umudikk/fookie_vue#readme"
+    "homepage": "https://github.com/umudikk/fookie_vue#readme",
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
 }
