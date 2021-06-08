@@ -2,7 +2,11 @@ import post from './components/post'
 import del from './components/delete'
 import view from './components/view'
 import card from './components/card'
+<<<<<<< Updated upstream
 import f_store from './store/fookieStore'
+=======
+import store from './store/fookieStore'
+>>>>>>> Stashed changes
 
 const plugin = {
     install: (Vue,) => {
@@ -22,8 +26,15 @@ const plugin = {
     }
 }
 
+<<<<<<< Updated upstream
 const fookieStore = f_store
 
 export {
     plugin, fookieStore
+=======
+const store = f_store
+
+export {
+    plugin, store
+>>>>>>> Stashed changes
 }
